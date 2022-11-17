@@ -13,12 +13,22 @@ import javax.inject.Inject
 /**
 Created by Norman on 11/16/2022
  **/
+
+/**
+ * Class to handle API calls to get the Meals
+ *
+ * @author Norman Vicente
+ *
+ * */
 class MealRepository @Inject constructor(private val mealService: MealService,
                                          private val mealDao: MealDao) {
 
     val listOfIds: MutableList<Int> = mutableListOf()
     val meals : LiveData<List<Meal>> get() = mealDao.getAll()
 
+    /**
+     * This method gets the meals from the service
+     * */
     suspend fun getMealData(){
         val meal = mapData(mealService.getMeals())
         if(!existInList(meal.idMeal)){

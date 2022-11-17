@@ -20,6 +20,15 @@ import javax.inject.Singleton
 Created by Norman on 11/16/2022
  **/
 
+/**
+ * This component is used for general purposes
+ * it's placed in the application component since
+ * it can be injected on any other modules where
+ * it is needed
+ *
+ * @author Norman Vicente
+ *
+ * */
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
