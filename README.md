@@ -22,7 +22,7 @@ https://themealdb.com/api.php
 
 ### Youtube
 
-<img width="400" src="https://github.com/normanaspx/MealApiChallenge/blob/master/imgs/yt.jpeg?raw=true" alt="Home"/>
+<img width="300" src="https://github.com/normanaspx/MealApiChallenge/blob/master/imgs/yt.jpeg?raw=true" alt="Home"/>
 
 
 
