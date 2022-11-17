@@ -18,11 +18,11 @@ https://themealdb.com/api.php
 
 ### Home Screen
 
-<img width="300" src="" alt="Home"/>
+<img width="300" src="https://github.com/normanaspx/MealApiChallenge/blob/master/imgs/home.jpeg?raw=true" alt="Home"/>
 
 ### Youtube
 
-<img width="400" src="" alt="Home"/>
+<img width="400" src="https://github.com/normanaspx/MealApiChallenge/blob/master/imgs/yt.jpeg?raw=true" alt="Home"/>
 
 
 
